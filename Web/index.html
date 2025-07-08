@@ -20,6 +20,9 @@
         href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Caveat:wght@400..700&family=Suravaram&display=swap"
         rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
     <!-- index.css -->
     <link rel="stylesheet" href="./index.css">
 
@@ -72,23 +75,134 @@
     <!-- Progetti -->
     <section id="projects" class="bg-black">
         <div class="container" data-aos="fade-left">
-            <h2 class="mb-5 text-purple">Progetti</h2>
+            <h2 class="mb-5 text-center">Progetti</h2>
             <div class="row g-4">
                 <div class="col-md-6" data-aos="zoom-in-up">
                     <div class="card bg-dark border-0 shadow-lg h-100">
                         <div class="card-body">
-                            <h5 class="card-title text-purple">Progetto 1</h5>
-                            <p class="card-text text-light">Descrizione breve del progetto, tecnologie utilizzate e
-                                scopo. Inserisci un link o immagine se vuoi.</p>
+                            <h5 class="card-title text-center fw-bold">Alpha Vantage</h5>
+                            <h6 class="card-text text-light text-center">Visualizza informazioni finanziarie delle principali aziende mondiali, sfruttando l'API Alpha Vantage</h6>
+                            <div class="text-center">
+                                Questo è un progetto scolastico. Utilizza le principali tecnologie web come HTML, CSS e JavaScript. Inoltre, sono state
+                                utilizzati dei framework come Bootstrap e jQuery e librerie come Axios.js, Chart.js e SweetAlert2. 
+                            </div>
+                            <div class="text-center">
+                                <img src="" alt="AlphaVantage.jpg">
+                            </div>
+                            <div class="text-center">
+                                Per esaminare il progetto cliccare <a href="https://github.com/vallauri-ict/alpha-vantage-StefanoOlivero07" target="_blank">qui</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6" data-aos="zoom-in-up" data-aos-delay="100">
                     <div class="card bg-dark border-0 shadow-lg h-100">
                         <div class="card-body">
-                            <h5 class="card-title text-purple">Progetto 2</h5>
-                            <p class="card-text text-light">Altro progetto creativo con una breve descrizione. Aggiungi
-                                GitHub o Behance se necessario.</p>
+                            <h5 class="card-title text-center fw-bold">Randomuser generator</h5>
+                            <h6 class="card-text text-center">Genera dati di utenti casuali, in modo da verificare il corretto funzionamento del proprio progetto</h6>
+                            <div class="text-center">
+                                Queto è un progetto scolastico. Come Alpha Vantage, utilizza le principali tecnologie web come HTML, CSS e JavaScript. Sono stati utilizzati
+                                dei framework quali Bootstrap e jQuery e librerie come Axios.js, Chart.js. Per poter generare gli utenti casuali, è stata utilizzata
+                                l'API Randomuser.me.
+                            </div>
+                            <div class="text-center">
+                                <img src="" alt="Randomuser.jpg">
+                            </div>
+                            <div class="text-center">
+                                Per guardare il progetto cliccare <a href="https://randomuserolivero.altervista.org" target="_blank">qui</a><br>
+                                Per esaminare il codice sorgente, cliccare <a href="https://github.com/vallauri-ict/randomuser-StefanoOlivero07" target="_blank">qui</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competenze -->
+    <section id="skill" class="bg-dark">
+        <div class="container" data-aos="fade-up">
+            <h2 class="mb-4 text-center">Competenze</h2>
+            <div class="container" id="musicSkill" data-aos="fade-up">
+                <h4 class="mb-4"><i class="fa-solid fa-arrow-right" style="color: #9b5de5;"></i> Musica:</h4>
+                <p class="text-justify text-light">
+                    Suono la batteria dalla seconda elementare e il pianoforte dalla prima media. Grazie all'eccellente preparazione che mi è stata fornita,
+                    ho avuto l'opportunità di suonare in diversi contesti, dall'orchesta classica alle band hard rock. Nel corso degli anni mi sono maggiormente
+                    specializzato nei generi rock e pop degli anni 70 e 80, ma ho anche avuto diverse esperienze in contesti di musica classica.
+                </p>
+                <p class="text-justify text-light">
+                    Durante questi anni, ho anche partecipato ad alcuni concorsi musicali nei quali ho ottenuto eccellenti risultati, che dimostrano ancora una volta
+                    la mia passione e dedizione per la musica.
+                </p>
+            </div>
+            <div class="container" id="itSkill" data-aos="fade-up">
+                <h4 class="mb-4"><i class="fa-solid fa-arrow-right" style="color: #9b5de5;"></i> Informatica:</h4>
+                <p class="text-justify text-light">
+                    Ho iniziato il mio percorso di studi in Informatica nel 2021, frequentando il corso "Informatica e Telecomunicazioni" presso 
+                    <a href="http://www.vallauri.edu/public/ita/pagina.asp" target="_blank">l'Istituto Tecnico Industriale Vallauri di Fossano (CN)</a>. Durante questi
+                    anni ho acquisito competenze in vari linguaggi di programmazione e ho compreso l'importanza della collaborazione e del lavoro di squadra, realizzando
+                    diversi progetti di gruppo.
+                </p>
+                <p class="text-center text-light">
+                    I linguaggi di programmazione che ho studiato:
+                </p>
+                <div id="programmingLanguages" class="text-center d-flex">
+                    <div class="card">
+                        <img src="../Images/html5.png" class="card-img-top mt-3" alt="Html.jpg">
+                        <div class="progress" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%;"></div>
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">HTML 5</h5>
+                            <p class="card-text">Utilizzo di HTML 5 nella programmazione web lato client e in ASP NET CORE</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../Images/css3.png" class="card-img-top mt-3" style="width: 90px;" alt="css3.jpg">
+                        <div class="progress" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%; background-color: #214ce5;"></div>
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">CSS 3</h5>
+                            <p class="card-text">Utilizzo di CSS 3 nella programmazione web lato client e in ASP NET CORE</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../Images/js.png" class="card-img-top mt-3" style="width: 220px;" alt="css3.jpg">
+                        <div class="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%; background-color: #eaca31;"></div>
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">Utilizzo di JavaScript nella programmazione web lato client e lato server con integrazione di Axios.js</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../Images/c.png" class="card-img-top mt-3" style="width: 110px;" alt="css3.jpg">
+                        <div class="progress" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%; background-color: #659bd3;"></div>
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">C</h5>
+                            <p class="card-text">Utilizzo di C nella programmazione a basso livello per la manipolazione della memoria attraverso i puntatori</p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../Images/Csharp.svg" class="card-img-top mt-3" style="width: 110px; transform: scale(1.30);" alt="css3.jpg">
+                        <div class="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%; background-color: #512bd4;"></div>
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">C#</h5>
+                            <p class="card-text">Utilizzo di C# negli ambienti Console, Windows Forms e ASP NET CORE con .NET framework</p>
+                            </p>
                         </div>
                     </div>
                 </div>

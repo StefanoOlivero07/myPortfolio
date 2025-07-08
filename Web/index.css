@@ -61,6 +61,42 @@ section {
     max-width: 100%;
 }
 
+#programmingLanguages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#programmingLanguages .card {
+    width: 18rem;
+    background-color: rgb(155, 93, 229, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+#programmingLanguages img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.progress {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 10px;
+}
+
+.progress-bar:first-of-type {
+    background-color: #e54c21;
+}
+
+#programmingLanguages img {
+    filter: drop-shadow(0 0 8px #9b5de5);
+}
+
 @media screen and (max-width: 972px) {
     #title {
         font-size: 70pt;

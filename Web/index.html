@@ -28,6 +28,9 @@
 
     <!-- index.js -->
     <script src="./index.js"></script>
+
+    <!-- jQuery -->
+    <script src="./Libraries/jquery-3.7.1.min.js"></script>
 </head>
 
 <body data-bs-theme="dark">
@@ -52,7 +55,7 @@
     <!-- Hero -->
     <header class="vh-100 d-flex align-items-center justify-content-center text-center bg-black" id="hero">
         <div class="container" data-aos="fade-up">
-            <h1 class=" fw-bold text-white mb-3" id="title">Ciao, sono Stefano Olivero</h1>
+            <h1 class="fw-bold text-white mb-3" id="title">Ciao, sono Stefano</h1>
             <p class="lead text-white" id="subtitle">Studente, musicista e programmatore</p>
         </div>
     </header>
@@ -60,14 +63,11 @@
     <!-- Chi Sono -->
     <section id="about" class="bg-dark">
         <div class="container" data-aos="fade-right">
-            <h2 class="mb-4 text-purple">Chi sono</h2>
+            <h2 class="mb-4 text-center">Chi sono</h2>
             <p class="lead text-light">
                 Sono Stefano Olivero. Sono nato a Savigliano (CN) nel 2007 e,
                 auttualmente, vivo a Fossano (CN). Nel corso degli anni ho coltivato
                 numerose passioni che definiscono chi sono oggi: la musica, la storia, il viaggiare e la programmazione.
-            </p>
-            <p class="lead text-light">
-                
             </p>
         </div>
     </section>
@@ -87,10 +87,10 @@
                                 utilizzati dei framework come Bootstrap e jQuery e librerie come Axios.js, Chart.js e SweetAlert2. 
                             </div>
                             <div class="text-center">
-                                <img src="" alt="AlphaVantage.jpg">
+                                <video src="../Videos/AlphaVantage.mp4" class="container-sm" autoplay muted loop></video>
                             </div>
                             <div class="text-center">
-                                Per esaminare il progetto cliccare <a href="https://github.com/vallauri-ict/alpha-vantage-StefanoOlivero07" target="_blank">qui</a>
+                                <a href="https://github.com/vallauri-ict/alpha-vantage-StefanoOlivero07" target="_blank">Apri il repository GIT</a>
                             </div>
                         </div>
                     </div>
@@ -99,18 +99,18 @@
                     <div class="card bg-dark border-0 shadow-lg h-100">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-bold">Randomuser generator</h5>
-                            <h6 class="card-text text-center">Genera dati di utenti casuali, in modo da verificare il corretto funzionamento del proprio progetto</h6>
+                            <h6 class="card-text text-light text-center">Genera dati di utenti casuali, sfruttando l'API Randomuser</h6>
                             <div class="text-center">
                                 Queto è un progetto scolastico. Come Alpha Vantage, utilizza le principali tecnologie web come HTML, CSS e JavaScript. Sono stati utilizzati
-                                dei framework quali Bootstrap e jQuery e librerie come Axios.js, Chart.js. Per poter generare gli utenti casuali, è stata utilizzata
-                                l'API Randomuser.me.
+                                dei framework quali Bootstrap e jQuery e librerie come Axios.js, Chart.js. <br> Il sito risulta molto utile per verificare il corretto funzionamento
+                                del proprio progetto nel momento in cui si necessita un elenco di utenti.
                             </div>
                             <div class="text-center">
-                                <img src="" alt="Randomuser.jpg">
+                                <video src="../Videos/Randomuser.mp4" class="container-fluid" autoplay muted loop></video>
                             </div>
                             <div class="text-center">
-                                Per guardare il progetto cliccare <a href="https://randomuserolivero.altervista.org" target="_blank">qui</a><br>
-                                Per esaminare il codice sorgente, cliccare <a href="https://github.com/vallauri-ict/randomuser-StefanoOlivero07" target="_blank">qui</a>
+                                <a href="https://randomuserolivero.altervista.org" target="_blank">Apri il sito</a><br>
+                                <a href="https://github.com/vallauri-ict/randomuser-StefanoOlivero07" target="_blank">Apri il repository GIT</a>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                     diversi progetti di gruppo.
                 </p>
                 <button class="btn btn-success" id="itDetails">Le mie competenze <i class="fa-solid fa-arrow-down d-none" style="margin-left: 2px;"></i></button>
-                <div id="programmingLanguages" class="text-center d-none">
+                <div id="programmingLanguages" class="text-center">
                     <!-- <h4 class="text-center text-light mb-4">
                         Le mie competenze:
                     </h4> -->
